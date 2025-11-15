@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator</title>
+</head>
+<body>
+    <script>
+        document.writeln("<p> Operator Aritmatika :" + "</p>")
+        let angka1 = 9;
+        let angka2 = 6;
+        let hasil = angka1 + angka2;
+        document.writeln("<p>" + angka1 + " + " + angka2 + " = " + hasil + "</p>");
+        hasil = angka1 - angka2;
+        document.writeln("<p>" + angka1 + " - " + angka2 + " = " + hasil + "</p>");
+        hasil = angka1 * angka2;
+        document.writeln("<p>" + angka1 + " x " + angka2 + " = " + hasil + "</p>");
+        hasil = angka1 / angka2;
+        document.writeln("<p>" + angka1 + " : " + angka2 + " = " + hasil + "</p>");
+        hasil = angka1 ** angka2;
+        document.writeln("<p>" + angka1 + " ^ " + angka2 + " = " + hasil + "</p>");
+        hasil = angka1 % angka2;
+        document.writeln("<p>" + angka1 + " modulo " + angka2 + " = " + hasil + "</p>");
+        document.writeln("<p> Operator Assigment :" + "</p>")
+        hasil += 10;
+        document.writeln("<p>" + "Assigment + 10 = " + hasil + "</p>");
+        hasil -= 10;
+        document.writeln("<p>" + "Assigment - 10 = " + hasil + "</p>");
+        hasil *= 10;
+        document.writeln("<p>" + "Assigment x 10 = " + hasil + "</p>");
+        hasil /= 10;
+        document.writeln("<p>" + "Assigment : 10 = " + hasil + "</p>");
+        hasil **= 10;
+        document.writeln("<p>" + "Assigment ^ 10 = " + hasil + "</p>");
+        hasil %= 10;
+        document.writeln("<p>" + "Assigment modulo 10 = " + hasil + "</p>");
+        document.writeln("<p> Operator Unery :" + "</p>")
+        let temp = hasil;
+        hasil = -hasil;
+        document.writeln("<p>" + "Negatif = " + hasil + "</p>");
+        hasil = temp;
+        hasil++;
+        document.writeln("<p>" + "Increment = " + hasil + "</p>");
+        hasil--;
+        document.writeln("<p>" + "Decrement = " + hasil + "</p>");
+        document.writeln("<p> Operator Perbandingan :" + "</p>")
+        let banding = angka1 > angka2;
+        document.writeln("<p>" + angka1 + " > " + angka2 + " = " + banding + "</p>");
+        banding = angka1 < angka2;
+        document.writeln("<p>" + angka1 + " < " + angka2 + " = " + banding + "</p>");
+        banding = angka1 >= angka2;
+        document.writeln("<p>" + angka1 + " >= " + angka2 + " = " + banding + "</p>");
+        banding = angka1 <= angka2;
+        document.writeln("<p>" + angka1 + " <= " + angka2 + " = " + banding + "</p>");
+        banding = angka1 == angka2;
+        document.writeln("<p>" + angka1 + " ==(sama dengan) " + angka2 + " = " + banding + "</p>");
+        banding = angka1 === angka2;
+        document.writeln("<p>" + angka1 + " ===(sama dengan & sama tipe dengan) " + angka2 + " = " + banding + "</p>");
+        banding = angka1 != angka2;
+        document.writeln("<p>" + angka1 + " !=(tidak sama dengan) " + angka2 + " = " + banding + "</p>");
+        banding = angka1 !== angka2;
+        document.writeln("<p>" + angka1 + " !==(tidak sama dengan / tidak sama tipe dengan) " + angka2 + " = " + banding + "</p>");
+    </script>
+</body>
+</html>
