@@ -2,7 +2,7 @@
 Data yang dianggap false :
 false (boolean)
 0 dan -0
-" ", ' ', ` ` (string kosong)
+"", '', `` (string kosong)
 null
 undefined
 Nan (Not a Number)
