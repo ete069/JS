@@ -1,7 +1,7 @@
 const orang = {
     namaDepan: "Abdurahman",
     namaTengah: "Zaki",
-    namaAkhir: "D"
+    namaBelakang: "D"
 };
 
 for (const nama in orang){
